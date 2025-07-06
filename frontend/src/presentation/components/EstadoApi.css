@@ -1,0 +1,154 @@
+.estado-api-card {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: white;
+  border: 2px solid;
+  transition: all 0.3s ease;
+}
+
+.estado-conectado {
+  border-color: #10b981;
+  background: linear-gradient(135deg, #ecfdf5 0%, #f0fdf4 100%);
+}
+
+.estado-desconectado {
+  border-color: #ef4444;
+  background: linear-gradient(135deg, #fef2f2 0%, #fef2f2 100%);
+}
+
+.estado-cargando {
+  border-color: #f59e0b;
+  background: linear-gradient(135deg, #fffbeb 0%, #fefce8 100%);
+}
+
+.estado-api-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.estado-api-icono {
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.estado-api-titulo {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #374151;
+}
+
+.estado-api-contenido {
+  text-align: center;
+}
+
+.estado-api-mensaje {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 0 8px 0;
+  color: #374151;
+}
+
+.estado-conectado .estado-api-mensaje {
+  color: #065f46;
+}
+
+.estado-desconectado .estado-api-mensaje {
+  color: #991b1b;
+}
+
+.estado-cargando .estado-api-mensaje {
+  color: #92400e;
+}
+
+.estado-api-tiempo {
+  font-size: 12px;
+  color: #6b7280;
+  margin: 8px 0 16px 0;
+}
+
+.estado-api-boton {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 140px;
+}
+
+.estado-api-boton:hover:not(:disabled) {
+  background: #2563eb;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(59, 130, 246, 0.3);
+}
+
+.estado-api-boton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.estado-api-boton:active {
+  transform: translateY(0);
+}
+
+/* Animación para el estado de carga */
+.estado-cargando .estado-api-icono {
+  animation: rotar 1s linear infinite;
+}
+
+@keyframes rotar {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Responsividad */
+@media (max-width: 480px) {
+  .estado-api-card {
+    margin: 10px;
+    padding: 16px;
+  }
+  
+  .estado-api-titulo {
+    font-size: 18px;
+  }
+  
+  .estado-api-icono {
+    font-size: 24px;
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.api-detalles {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 12px;
+  border-radius: 8px;
+  margin: 12px 0;
+  text-align: left;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.api-detalles p {
+  margin: 4px 0;
+  font-size: 13px;
+  color: #374151;
+}
+
+.api-detalles strong {
+  color: #1f2937;
+  font-weight: 600;
+}

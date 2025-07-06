@@ -3,4 +3,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+.home-page {
+  z-index: 1;
 }
