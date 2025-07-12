@@ -69,4 +69,66 @@ export const apiRequest = async (endpoint, options = {}) => {
   }
 };
 
+// Funciones para gestionar categorías
+export const categoriaApi = {
+  obtenerTodas: async () => {
+    return await apiRequest('/categorias');
+  },
+  
+  obtenerPorId: async (id) => {
+    return await apiRequest(`/categorias/${id}`);
+  },
+  
+  crear: async (categoria) => {
+    return await apiRequest('/categorias', {
+      method: 'POST',
+      body: JSON.stringify(categoria)
+    });
+  },
+  
+  actualizar: async (id, categoria) => {
+    return await apiRequest(`/categorias/${id}`, {
+      method: 'PUT',
+      body: JSON.stringify(categoria)
+    });
+  },
+  
+  eliminar: async (id) => {
+    return await apiRequest(`/categorias/${id}`, {
+      method: 'DELETE'
+    });
+  }
+};
+
+// Funciones para gestionar carreras
+export const carreraApi = {
+  obtenerTodas: async () => {
+    return await apiRequest('/carreras');
+  },
+  
+  obtenerPorId: async (id) => {
+    return await apiRequest(`/carreras/${id}`);
+  },
+  
+  crear: async (carrera) => {
+    return await apiRequest('/carreras', {
+      method: 'POST',
+      body: JSON.stringify(carrera)
+    });
+  },
+  
+  actualizar: async (id, carrera) => {
+    return await apiRequest(`/carreras/${id}`, {
+      method: 'PUT',
+      body: JSON.stringify(carrera)
+    });
+  },
+  
+  eliminar: async (id) => {
+    return await apiRequest(`/carreras/${id}`, {
+      method: 'DELETE'
+    });
+  }
+};
+
 export default API_CONFIG;

@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";  
+import { useNavigate } from "react-router-dom";
 import './EstadoApi.css'
 import { verificarEstadoApi } from '../../shared/config/api';
 
 const EstadoApi = () => {
+  const navigate = useNavigate();
   const [estadoApi, setEstadoApi] = useState({
     conectado: null,
     cargando: true,
@@ -99,6 +101,15 @@ const EstadoApi = () => {
         >
           {estadoApi.cargando ? 'Verificando...' : 'Verificar Conexión'}
         </button>
+        
+        {estadoApi.conectado && (
+          <button 
+            className="estado-api-boton editar-api-boton"
+            onClick={() => navigate('/edit-api')}
+          >
+            Editar API
+          </button>
+        )}
       </div>
     </div>
   );

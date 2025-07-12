@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import HomePage from './presentation/pages/HomePage'
 import ApiPage from './presentation/pages/ApiPage'
+import EditApi from './presentation/pages/EditApi'
 import FloatingMenu from './presentation/components/FloatingMenu'
 import './shared/styles/App.css'
 
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/api" element={<ApiPage />} />
+          <Route path="/edit-api" element={<EditApi />} />
           <Route path="/usuario" element={<div>Página de Usuario (en desarrollo)</div>} />
         </Routes>
       </div>

@@ -1,0 +1,113 @@
+.map-selector {
+  margin: 20px 0;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.map-instructions {
+  padding: 15px;
+  background: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+  text-align: center;
+}
+
+.map-instructions p {
+  margin: 0;
+  font-size: 14px;
+  color: #495057;
+  font-weight: 500;
+}
+
+.selected-location {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: #e7f3ff;
+  border: 1px solid #b8daff;
+  border-radius: 6px;
+  font-size: 13px;
+  color: #004085;
+  text-align: left;
+  display: inline-block;
+}
+
+.map-container {
+  position: relative;
+  width: 100%;
+  border-radius: 0;
+}
+
+.map-container .leaflet-container {
+  border-radius: 0;
+}
+
+.map-controls {
+  padding: 15px;
+  background: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+  text-align: center;
+}
+
+.btn-clear-location {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-clear-location:hover {
+  background: #5a6268;
+}
+
+/* Estilos para el popup del mapa */
+.leaflet-popup-content-wrapper {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.leaflet-popup-content {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .map-selector {
+    margin: 15px 0;
+  }
+  
+  .map-instructions {
+    padding: 12px;
+  }
+  
+  .map-instructions p {
+    font-size: 13px;
+  }
+  
+  .selected-location {
+    font-size: 12px;
+  }
+  
+  .map-controls {
+    padding: 12px;
+  }
+}
+
+/* Ajustes para los controles de zoom en móvil */
+@media (max-width: 480px) {
+  .leaflet-control-zoom {
+    font-size: 18px;
+  }
+  
+  .leaflet-control-zoom a {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+  }
+}
