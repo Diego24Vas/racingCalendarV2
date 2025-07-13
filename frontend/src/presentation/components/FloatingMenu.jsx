@@ -18,7 +18,6 @@ const FloatingMenu = () => {
   const menuItems = [
     { icon: '🏠', label: 'Home', href: '/' },
     { icon: '👤', label: 'Usuario', href: '/usuario'},
-    { icon: '🔧', label: 'Api', href: '/api'}
   ]
 
   return (

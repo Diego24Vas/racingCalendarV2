@@ -84,7 +84,6 @@ const EstadoApi = () => {
           <div className="api-detalles">
             <p><strong>API:</strong> {estadoApi.detalles.mensaje}</p>
             <p><strong>Versión:</strong> {estadoApi.detalles.version}</p>
-            <p><strong>Arquitectura:</strong> {estadoApi.detalles.arquitectura}</p>
           </div>
         )}
         

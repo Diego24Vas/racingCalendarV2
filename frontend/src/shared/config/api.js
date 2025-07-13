@@ -26,7 +26,7 @@ export const verificarEstadoApi = async () => {
       return {
         success: true,
         data: data,
-        message: 'API conectada correctamente'
+        message: 'conectada correctamente'
       };
     } else {
       throw new Error(`Error ${response.status}: ${response.statusText}`);

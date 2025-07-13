@@ -56,7 +56,7 @@ const MapClickHandler = ({ onLocationSelect }) => {
 
 const MapSelector = ({ 
   onLocationSelect, 
-  initialPosition = [40.4168, -3.7038], // Madrid por defecto
+  initialPosition = [20, 0], // Vista mundial centrada
   selectedPosition = null,
   height = "400px" 
 }) => {
@@ -92,7 +92,7 @@ const MapSelector = ({
       <div className="map-container" style={{ height }}>
         <MapContainer
           center={position}
-          zoom={6}
+          zoom={2} // Vista mundial
           style={{ height: '100%', width: '100%' }}
           scrollWheelZoom={true}
         >

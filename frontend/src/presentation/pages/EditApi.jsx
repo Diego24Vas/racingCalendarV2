@@ -25,7 +25,6 @@ const EditApi = () => {
     categoria_id: ''
   });
   const [carreraEditando, setCarreraEditando] = useState(null);
-  const [mostrarMapa, setMostrarMapa] = useState(false);
 
   useEffect(() => {
     cargarDatos();
@@ -154,7 +153,6 @@ const EditApi = () => {
         longitud: '',
         categoria_id: ''
       });
-      setMostrarMapa(false);
       cargarDatos();
     } catch (error) {
       mostrarMensaje('Error al guardar la carrera: ' + error.message, 'error');
@@ -174,7 +172,6 @@ const EditApi = () => {
       longitud: carrera.longitud.toString(),
       categoria_id: carrera.categoria_id
     });
-    setMostrarMapa(true);
   };
 
   const eliminarCarrera = async (id) => {
@@ -203,7 +200,6 @@ const EditApi = () => {
       longitud: '',
       categoria_id: ''
     });
-    setMostrarMapa(false);
   };
 
   const manejarSeleccionMapa = (locationData) => {
@@ -312,56 +308,70 @@ const EditApi = () => {
       )}
 
       {pestanaActiva === 'carreras' && (
-        <div className="seccion-carreras">
-          <div className="formulario-card">
-            <h2>{carreraEditando ? 'Editar Carrera' : 'Nueva Carrera'}</h2>
-            <form onSubmit={guardarCarrera}>
-              <div className="input-group">
-                <label>Nombre:</label>
-                <input
-                  type="text"
-                  name="nombre"
-                  value={carreraForm.nombre}
-                  onChange={manejarCarreraForm}
-                  placeholder="Ingrese el nombre de la carrera"
-                  required
-                />
-              </div>
-              <div className="input-group">
-                <label>Fecha:</label>
-                <input
-                  type="datetime-local"
-                  name="fecha"
-                  value={carreraForm.fecha}
-                  onChange={manejarCarreraForm}
-                  required
-                />
-              </div>
-              <div className="input-group">
-                <label>País:</label>
-                <input
-                  type="text"
-                  name="pais"
-                  value={carreraForm.pais}
-                  onChange={manejarCarreraForm}
-                  placeholder="Se completará automáticamente al seleccionar en el mapa"
-                  readOnly
-                />
-              </div>
-              <div className="input-group">
-                <label>Circuito:</label>
-                <input
-                  type="text"
-                  name="circuito"
-                  value={carreraForm.circuito}
-                  onChange={manejarCarreraForm}
-                  placeholder="Ingrese el nombre del circuito"
-                  required
-                />
-              </div>
-              
-              <div className="ubicacion-section">
-                <h3>Ubicación del Circuito</h3>
+        <div className="seccion-carreras-tres-columnas">
+          <div className="mapa-columna">
+            <div className="mapa-card">
+              <h2>📍 Seleccionar Ubicación</h2>
+              <MapSelector
+                onLocationSelect={manejarSeleccionMapa}
+                selectedPosition={
+                  carreraForm.latitud && carreraForm.longitud
+                    ? [parseFloat(carreraForm.latitud), parseFloat(carreraForm.longitud)]
+                    : null
+                }
+                height="auto"
+              />
+            </div>
+          </div>
+          
+          <div className="formulario-columna">
+            <div className="formulario-card">
+              <h2>{carreraEditando ? 'Editar Carrera' : 'Nueva Carrera'}</h2>
+              <form onSubmit={guardarCarrera}>
+                <div className="input-group">
+                  <label>Nombre:</label>
+                  <input
+                    type="text"
+                    name="nombre"
+                    value={carreraForm.nombre}
+                    onChange={manejarCarreraForm}
+                    placeholder="Ingrese el nombre de la carrera"
+                    required
+                  />
+                </div>
+                <div className="input-group">
+                  <label>Fecha:</label>
+                  <input
+                    type="datetime-local"
+                    name="fecha"
+                    value={carreraForm.fecha}
+                    onChange={manejarCarreraForm}
+                    required
+                  />
+                </div>
+                <div className="input-group">
+                  <label>País:</label>
+                  <input
+                    type="text"
+                    name="pais"
+                    value={carreraForm.pais}
+                    onChange={manejarCarreraForm}
+                    placeholder="Se completará automáticamente al seleccionar en el mapa"
+                    readOnly
+                  />
+                </div>
+                <div className="input-group">
+                  <label>Circuito:</label>
+                  <input
+                    type="text"
+                    name="circuito"
+                    value={carreraForm.circuito}
+                    onChange={manejarCarreraForm}
+                    placeholder="Ingrese el nombre del circuito"
+                    required
+                  />
+                </div>
+                
                 <div className="coordenadas-display">
                   {carreraForm.latitud && carreraForm.longitud ? (
                     <div className="coordenadas-info">
@@ -373,122 +383,102 @@ const EditApi = () => {
                   )}
                 </div>
                 
-                <div className="mapa-controles">
-                  <button
-                    type="button"
-                    className="btn-mostrar-mapa"
-                    onClick={() => setMostrarMapa(!mostrarMapa)}
-                  >
-                    {mostrarMapa ? 'Ocultar Mapa' : 'Mostrar Mapa'}
-                  </button>
-                </div>
-                
-                {mostrarMapa && (
-                  <MapSelector
-                    onLocationSelect={manejarSeleccionMapa}
-                    selectedPosition={
-                      carreraForm.latitud && carreraForm.longitud
-                        ? [parseFloat(carreraForm.latitud), parseFloat(carreraForm.longitud)]
-                        : null
-                    }
-                    height="350px"
+                <div className="input-group" style={{ display: 'none' }}>
+                  <label>Latitud:</label>
+                  <input
+                    type="number"
+                    name="latitud"
+                    value={carreraForm.latitud}
+                    onChange={manejarCarreraForm}
+                    step="any"
+                    readOnly
                   />
-                )}
-              </div>
-              
-              <div className="input-group" style={{ display: 'none' }}>
-                <label>Latitud:</label>
-                <input
-                  type="number"
-                  name="latitud"
-                  value={carreraForm.latitud}
-                  onChange={manejarCarreraForm}
-                  step="any"
-                  readOnly
-                />
-              </div>
-              <div className="input-group" style={{ display: 'none' }}>
-                <label>Longitud:</label>
-                <input
-                  type="number"
-                  name="longitud"
-                  value={carreraForm.longitud}
-                  onChange={manejarCarreraForm}
-                  step="any"
-                  readOnly
-                />
-              </div>
-              <div className="input-group">
-                <label>Categoría:</label>
-                <select
-                  name="categoria_id"
-                  value={carreraForm.categoria_id}
-                  onChange={manejarCarreraForm}
-                  required
-                >
-                  <option value="">Seleccione una categoría</option>
-                  {categorias.map(categoria => (
-                    <option key={categoria.id} value={categoria.id}>
-                      {categoria.nombre}
-                    </option>
-                  ))}
-                </select>
-              </div>
-              <div className="botones">
-                <button type="submit" disabled={cargando}>
-                  {carreraEditando ? 'Actualizar' : 'Crear'}
-                </button>
-                {carreraEditando && (
-                  <button type="button" onClick={cancelarEdicionCarrera}>
-                    Cancelar
+                </div>
+                <div className="input-group" style={{ display: 'none' }}>
+                  <label>Longitud:</label>
+                  <input
+                    type="number"
+                    name="longitud"
+                    value={carreraForm.longitud}
+                    onChange={manejarCarreraForm}
+                    step="any"
+                    readOnly
+                  />
+                </div>
+                <div className="input-group">
+                  <label>Categoría:</label>
+                  <select
+                    name="categoria_id"
+                    value={carreraForm.categoria_id}
+                    onChange={manejarCarreraForm}
+                    required
+                  >
+                    <option value="">Seleccione una categoría</option>
+                    {categorias.map(categoria => (
+                      <option key={categoria.id} value={categoria.id}>
+                        {categoria.nombre}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+                <div className="botones">
+                  <button type="submit" disabled={cargando}>
+                    {carreraEditando ? 'Actualizar' : 'Crear'}
                   </button>
-                )}
-              </div>
-            </form>
+                  {carreraEditando && (
+                    <button type="button" onClick={cancelarEdicionCarrera}>
+                      Cancelar
+                    </button>
+                  )}
+                </div>
+              </form>
+            </div>
           </div>
 
-          <div className="lista-card">
-            <h2>Carreras Existentes</h2>
-            <div className="tabla-container">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Nombre</th>
-                    <th>Fecha</th>
-                    <th>País</th>
-                    <th>Circuito</th>
-                    <th>Categoría</th>
-                    <th>Acciones</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {carreras.map(carrera => (
-                    <tr key={carrera.id}>
-                      <td>{carrera.nombre}</td>
-                      <td>{new Date(carrera.fecha).toLocaleDateString()}</td>
-                      <td>{carrera.pais}</td>
-                      <td>{carrera.circuito}</td>
-                      <td>
-                        {categorias.find(cat => cat.id === carrera.categoria_id)?.nombre || 'N/A'}
-                      </td>
-                      <td>
-                        <button
-                          className="btn-editar"
-                          onClick={() => editarCarrera(carrera)}
-                        >
-                          Editar
-                        </button>
-                        <button
-                          className="btn-eliminar"
-                          onClick={() => eliminarCarrera(carrera.id)}
-                        >
-                          Eliminar
-                        </button>
-                      </td>
+          <div className="tabla-columna">
+            <div className="lista-card">
+              <h2>Carreras Existentes</h2>
+              <div className="tabla-container">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Nombre</th>
+                      <th>Fecha</th>
+                      <th>País</th>
+                      <th>Circuito</th>
+                      <th>Categoría</th>
+                      <th>Acciones</th>
                     </tr>
-                  ))}
-                </tbody>
-              </table>
+                  </thead>
+                  <tbody>
+                    {carreras.map(carrera => (
+                      <tr key={carrera.id}>
+                        <td>{carrera.nombre}</td>
+                        <td>{new Date(carrera.fecha).toLocaleDateString()}</td>
+                        <td>{carrera.pais}</td>
+                        <td>{carrera.circuito}</td>
+                        <td>
+                          {categorias.find(cat => cat.id === carrera.categoria_id)?.nombre || 'N/A'}
+                        </td>
+                        <td>
+                          <button
+                            className="btn-editar"
+                            onClick={() => editarCarrera(carrera)}
+                          >
+                            Editar
+                          </button>
+                          <button
+                            className="btn-eliminar"
+                            onClick={() => eliminarCarrera(carrera.id)}
+                          >
+                            Eliminar
+                          </button>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </div>

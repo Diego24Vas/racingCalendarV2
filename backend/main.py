@@ -31,7 +31,7 @@ app.include_router(carreras_router)
 @app.get("/")
 def read_root():
     return {
-        "mensaje": "API de RacingCalendar",
+        "mensaje": "RacingCalendar",
         "version": "2.0.0",
         "arquitectura": "Clean Architecture",
         "estado": "operativo",

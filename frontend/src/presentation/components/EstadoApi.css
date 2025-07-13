@@ -1,5 +1,6 @@
 .estado-api-card {
   max-width: 400px;
+  max-height: 260px;
   margin: 20px auto;
   padding: 20px;
   border-radius: 12px;
@@ -115,50 +116,3 @@
   to { transform: rotate(360deg); }
 }
 
-/* Responsividad */
-@media (max-width: 480px) {
-  .estado-api-card {
-    margin: 10px;
-    padding: 16px;
-  }
-  
-  .estado-api-titulo {
-    font-size: 18px;
-  }
-  
-  .estado-api-icono {
-    font-size: 24px;
-    width: 32px;
-    height: 32px;
-  }
-}
-
-.api-detalles {
-  background: rgba(255, 255, 255, 0.7);
-  padding: 12px;
-  border-radius: 8px;
-  margin: 12px 0;
-  text-align: left;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.api-detalles p {
-  margin: 4px 0;
-  font-size: 13px;
-  color: #374151;
-}
-
-.api-detalles strong {
-  color: #1f2937;
-  font-weight: 600;
-}
-
-.editar-api-boton {
-  background: #10b981 !important;
-  margin-top: 10px;
-}
-
-.editar-api-boton:hover:not(:disabled) {
-  background: #059669 !important;
-  box-shadow: 0 4px 8px rgba(16, 185, 129, 0.3);
-}
