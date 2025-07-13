@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from src.presentation.api.categoria_controller import router as categorias_router
 from src.presentation.api.carrera_controller import router as carreras_router
 from src.shared.config.settings import settings
@@ -13,6 +14,15 @@ app = FastAPI(
     version="2.0.0"
 )
 
+# Configurar CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173", "http://localhost:3000"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 # Incluir las rutas
 app.include_router(categorias_router)
 app.include_router(carreras_router)
@@ -21,12 +31,16 @@ app.include_router(carreras_router)
 @app.get("/")
 def read_root():
     return {
-        "mensaje": "API de RacingCalendar",
+        "mensaje": "RacingCalendar",
         "version": "2.0.0",
         "arquitectura": "Clean Architecture",
+        "estado": "operativo",
+        "timestamp": "2025-07-05T00:00:00Z",
         "endpoints": {
             "categorias": "/categorias",
-            "carreras": "/carreras"
+            "carreras": "/carreras",
+            "documentacion": "/docs",
+            "redoc": "/redoc"
         }
     }
 
