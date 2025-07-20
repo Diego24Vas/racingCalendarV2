@@ -356,7 +356,7 @@ const EditApi = () => {
                     name="pais"
                     value={carreraForm.pais}
                     onChange={manejarCarreraForm}
-                    placeholder="Se completará automáticamente al seleccionar en el mapa"
+                    placeholder="Selecciona una ubicación en el mapa"
                     readOnly
                   />
                 </div>
