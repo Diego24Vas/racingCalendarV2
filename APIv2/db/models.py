@@ -30,10 +30,13 @@ class Categoria(Base):
 class Pais(Base):
     __tablename__ = "pais"
     id = Column(Integer, primary_key=True, index=True)
-    nombre = Column(String(100), nullable=False, unique=True)
-    codigo_iso = Column(String(2))
+    nombreES = Column(String(100), nullable=False, unique=True)
+    nombreEN = Column(String(100), nullable=False, unique=True)
+    iso2 = Column(String(2))
+    iso3 = Column(String(3))
+    phoneCode = Column(Integer)
     created_at = Column(DateTime, server_default=func.now())
-    
+
     # Relaciones
     circuitos = relationship("Circuito", back_populates="pais")
     usuarios = relationship("Usuario", back_populates="pais")

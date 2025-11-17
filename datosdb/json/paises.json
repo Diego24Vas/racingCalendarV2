@@ -1,0 +1,1738 @@
+[
+  {
+    "nombreES": "Afganistán",
+    "nombreEN": "Afghanistan",
+    "iso2": "AF",
+    "iso3": "AFG",
+    "phoneCode": "93"
+  },
+  {
+    "nombreES": "Albania",
+    "nombreEN": "Albania",
+    "iso2": "AL",
+    "iso3": "ALB",
+    "phoneCode": "355"
+  },
+  {
+    "nombreES": "Alemania",
+    "nombreEN": "Germany",
+    "iso2": "DE",
+    "iso3": "DEU",
+    "phoneCode": "49"
+  },
+  {
+    "nombreES": "Andorra",
+    "nombreEN": "Andorra",
+    "iso2": "AD",
+    "iso3": "AND",
+    "phoneCode": "376"
+  },
+  {
+    "nombreES": "Angola",
+    "nombreEN": "Angola",
+    "iso2": "AO",
+    "iso3": "AGO",
+    "phoneCode": "244"
+  },
+  {
+    "nombreES": "Anguila",
+    "nombreEN": "Anguilla",
+    "iso2": "AI",
+    "iso3": "AIA",
+    "phoneCode": "1 264"
+  },
+  {
+    "nombreES": "Antártida",
+    "nombreEN": "Antarctica",
+    "iso2": "AQ",
+    "iso3": "ATA",
+    "phoneCode": "672"
+  },
+  {
+    "nombreES": "Antigua y Barbuda",
+    "nombreEN": "Antigua and Barbuda",
+    "iso2": "AG",
+    "iso3": "ATG",
+    "phoneCode": "1 268"
+  },
+  {
+    "nombreES": "Arabia Saudita",
+    "nombreEN": "Saudi Arabia",
+    "iso2": "SA",
+    "iso3": "SAU",
+    "phoneCode": "966"
+  },
+  {
+    "nombreES": "Argelia",
+    "nombreEN": "Algeria",
+    "iso2": "DZ",
+    "iso3": "DZA",
+    "phoneCode": "213"
+  },
+  {
+    "nombreES": "Argentina",
+    "nombreEN": "Argentina",
+    "iso2": "AR",
+    "iso3": "ARG",
+    "phoneCode": "54"
+  },
+  {
+    "nombreES": "Armenia",
+    "nombreEN": "Armenia",
+    "iso2": "AM",
+    "iso3": "ARM",
+    "phoneCode": "374"
+  },
+  {
+    "nombreES": "Aruba",
+    "nombreEN": "Aruba",
+    "iso2": "AW",
+    "iso3": "ABW",
+    "phoneCode": "297"
+  },
+  {
+    "nombreES": "Australia",
+    "nombreEN": "Australia",
+    "iso2": "AU",
+    "iso3": "AUS",
+    "phoneCode": "61"
+  },
+  {
+    "nombreES": "Austria",
+    "nombreEN": "Austria",
+    "iso2": "AT",
+    "iso3": "AUT",
+    "phoneCode": "43"
+  },
+  {
+    "nombreES": "Azerbaiyán",
+    "nombreEN": "Azerbaijan",
+    "iso2": "AZ",
+    "iso3": "AZE",
+    "phoneCode": "994"
+  },
+  {
+    "nombreES": "Bélgica",
+    "nombreEN": "Belgium",
+    "iso2": "BE",
+    "iso3": "BEL",
+    "phoneCode": "32"
+  },
+  {
+    "nombreES": "Bahamas",
+    "nombreEN": "Bahamas",
+    "iso2": "BS",
+    "iso3": "BHS",
+    "phoneCode": "1 242"
+  },
+  {
+    "nombreES": "Bahrein",
+    "nombreEN": "Bahrain",
+    "iso2": "BH",
+    "iso3": "BHR",
+    "phoneCode": "973"
+  },
+  {
+    "nombreES": "Bangladesh",
+    "nombreEN": "Bangladesh",
+    "iso2": "BD",
+    "iso3": "BGD",
+    "phoneCode": "880"
+  },
+  {
+    "nombreES": "Barbados",
+    "nombreEN": "Barbados",
+    "iso2": "BB",
+    "iso3": "BRB",
+    "phoneCode": "1 246"
+  },
+  {
+    "nombreES": "Belice",
+    "nombreEN": "Belize",
+    "iso2": "BZ",
+    "iso3": "BLZ",
+    "phoneCode": "501"
+  },
+  {
+    "nombreES": "Benín",
+    "nombreEN": "Benin",
+    "iso2": "BJ",
+    "iso3": "BEN",
+    "phoneCode": "229"
+  },
+  {
+    "nombreES": "Bhután",
+    "nombreEN": "Bhutan",
+    "iso2": "BT",
+    "iso3": "BTN",
+    "phoneCode": "975"
+  },
+  {
+    "nombreES": "Bielorrusia",
+    "nombreEN": "Belarus",
+    "iso2": "BY",
+    "iso3": "BLR",
+    "phoneCode": "375"
+  },
+  {
+    "nombreES": "Birmania",
+    "nombreEN": "Myanmar",
+    "iso2": "MM",
+    "iso3": "MMR",
+    "phoneCode": "95"
+  },
+  {
+    "nombreES": "Bolivia",
+    "nombreEN": "Bolivia",
+    "iso2": "BO",
+    "iso3": "BOL",
+    "phoneCode": "591"
+  },
+  {
+    "nombreES": "Bosnia y Herzegovina",
+    "nombreEN": "Bosnia and Herzegovina",
+    "iso2": "BA",
+    "iso3": "BIH",
+    "phoneCode": "387"
+  },
+  {
+    "nombreES": "Botsuana",
+    "nombreEN": "Botswana",
+    "iso2": "BW",
+    "iso3": "BWA",
+    "phoneCode": "267"
+  },
+  {
+    "nombreES": "Brasil",
+    "nombreEN": "Brazil",
+    "iso2": "BR",
+    "iso3": "BRA",
+    "phoneCode": "55"
+  },
+  {
+    "nombreES": "Brunéi",
+    "nombreEN": "Brunei",
+    "iso2": "BN",
+    "iso3": "BRN",
+    "phoneCode": "673"
+  },
+  {
+    "nombreES": "Bulgaria",
+    "nombreEN": "Bulgaria",
+    "iso2": "BG",
+    "iso3": "BGR",
+    "phoneCode": "359"
+  },
+  {
+    "nombreES": "Burkina Faso",
+    "nombreEN": "Burkina Faso",
+    "iso2": "BF",
+    "iso3": "BFA",
+    "phoneCode": "226"
+  },
+  {
+    "nombreES": "Burundi",
+    "nombreEN": "Burundi",
+    "iso2": "BI",
+    "iso3": "BDI",
+    "phoneCode": "257"
+  },
+  {
+    "nombreES": "Cabo Verde",
+    "nombreEN": "Cape Verde",
+    "iso2": "CV",
+    "iso3": "CPV",
+    "phoneCode": "238"
+  },
+  {
+    "nombreES": "Camboya",
+    "nombreEN": "Cambodia",
+    "iso2": "KH",
+    "iso3": "KHM",
+    "phoneCode": "855"
+  },
+  {
+    "nombreES": "Camerún",
+    "nombreEN": "Cameroon",
+    "iso2": "CM",
+    "iso3": "CMR",
+    "phoneCode": "237"
+  },
+  {
+    "nombreES": "Canadá",
+    "nombreEN": "Canada",
+    "iso2": "CA",
+    "iso3": "CAN",
+    "phoneCode": "1"
+  },
+  {
+    "nombreES": "Chad",
+    "nombreEN": "Chad",
+    "iso2": "TD",
+    "iso3": "TCD",
+    "phoneCode": "235"
+  },
+  {
+    "nombreES": "Chile",
+    "nombreEN": "Chile",
+    "iso2": "CL",
+    "iso3": "CHL",
+    "phoneCode": "56"
+  },
+  {
+    "nombreES": "China",
+    "nombreEN": "China",
+    "iso2": "CN",
+    "iso3": "CHN",
+    "phoneCode": "86"
+  },
+  {
+    "nombreES": "Chipre",
+    "nombreEN": "Cyprus",
+    "iso2": "CY",
+    "iso3": "CYP",
+    "phoneCode": "357"
+  },
+  {
+    "nombreES": "Ciudad del Vaticano",
+    "nombreEN": "Vatican City State",
+    "iso2": "VA",
+    "iso3": "VAT",
+    "phoneCode": "39"
+  },
+  {
+    "nombreES": "Colombia",
+    "nombreEN": "Colombia",
+    "iso2": "CO",
+    "iso3": "COL",
+    "phoneCode": "57"
+  },
+  {
+    "nombreES": "Comoras",
+    "nombreEN": "Comoros",
+    "iso2": "KM",
+    "iso3": "COM",
+    "phoneCode": "269"
+  },
+  {
+    "nombreES": "República del Congo",
+    "nombreEN": "Republic of the Congo",
+    "iso2": "CG",
+    "iso3": "COG",
+    "phoneCode": "242"
+  },
+  {
+    "nombreES": "República Democrática del Congo",
+    "nombreEN": "Democratic Republic of the Congo",
+    "iso2": "CD",
+    "iso3": "COD",
+    "phoneCode": "243"
+  },
+  {
+    "nombreES": "Corea del Norte",
+    "nombreEN": "North Korea",
+    "iso2": "KP",
+    "iso3": "PRK",
+    "phoneCode": "850"
+  },
+  {
+    "nombreES": "Corea del Sur",
+    "nombreEN": "South Korea",
+    "iso2": "KR",
+    "iso3": "KOR",
+    "phoneCode": "82"
+  },
+  {
+    "nombreES": "Costa de Marfil",
+    "nombreEN": "Ivory Coast",
+    "iso2": "CI",
+    "iso3": "CIV",
+    "phoneCode": "225"
+  },
+  {
+    "nombreES": "Costa Rica",
+    "nombreEN": "Costa Rica",
+    "iso2": "CR",
+    "iso3": "CRI",
+    "phoneCode": "506"
+  },
+  {
+    "nombreES": "Croacia",
+    "nombreEN": "Croatia",
+    "iso2": "HR",
+    "iso3": "HRV",
+    "phoneCode": "385"
+  },
+  {
+    "nombreES": "Cuba",
+    "nombreEN": "Cuba",
+    "iso2": "CU",
+    "iso3": "CUB",
+    "phoneCode": "53"
+  },
+  {
+    "nombreES": "Curazao",
+    "nombreEN": "Curaçao",
+    "iso2": "CW",
+    "iso3": "CWU",
+    "phoneCode": "5999"
+  },
+  {
+    "nombreES": "Dinamarca",
+    "nombreEN": "Denmark",
+    "iso2": "DK",
+    "iso3": "DNK",
+    "phoneCode": "45"
+  },
+  {
+    "nombreES": "Dominica",
+    "nombreEN": "Dominica",
+    "iso2": "DM",
+    "iso3": "DMA",
+    "phoneCode": "1 767"
+  },
+  {
+    "nombreES": "Ecuador",
+    "nombreEN": "Ecuador",
+    "iso2": "EC",
+    "iso3": "ECU",
+    "phoneCode": "593"
+  },
+  {
+    "nombreES": "Egipto",
+    "nombreEN": "Egypt",
+    "iso2": "EG",
+    "iso3": "EGY",
+    "phoneCode": "20"
+  },
+  {
+    "nombreES": "El Salvador",
+    "nombreEN": "El Salvador",
+    "iso2": "SV",
+    "iso3": "SLV",
+    "phoneCode": "503"
+  },
+  {
+    "nombreES": "Emiratos Árabes Unidos",
+    "nombreEN": "United Arab Emirates",
+    "iso2": "AE",
+    "iso3": "ARE",
+    "phoneCode": "971"
+  },
+  {
+    "nombreES": "Eritrea",
+    "nombreEN": "Eritrea",
+    "iso2": "ER",
+    "iso3": "ERI",
+    "phoneCode": "291"
+  },
+  {
+    "nombreES": "Eslovaquia",
+    "nombreEN": "Slovakia",
+    "iso2": "SK",
+    "iso3": "SVK",
+    "phoneCode": "421"
+  },
+  {
+    "nombreES": "Eslovenia",
+    "nombreEN": "Slovenia",
+    "iso2": "SI",
+    "iso3": "SVN",
+    "phoneCode": "386"
+  },
+  {
+    "nombreES": "España",
+    "nombreEN": "Spain",
+    "iso2": "ES",
+    "iso3": "ESP",
+    "phoneCode": "34"
+  },
+  {
+    "nombreES": "Estados Unidos de América",
+    "nombreEN": "United States of America",
+    "iso2": "US",
+    "iso3": "USA",
+    "phoneCode": "1"
+  },
+  {
+    "nombreES": "Estonia",
+    "nombreEN": "Estonia",
+    "iso2": "EE",
+    "iso3": "EST",
+    "phoneCode": "372"
+  },
+  {
+    "nombreES": "Etiopía",
+    "nombreEN": "Ethiopia",
+    "iso2": "ET",
+    "iso3": "ETH",
+    "phoneCode": "251"
+  },
+  {
+    "nombreES": "Filipinas",
+    "nombreEN": "Philippines",
+    "iso2": "PH",
+    "iso3": "PHL",
+    "phoneCode": "63"
+  },
+  {
+    "nombreES": "Finlandia",
+    "nombreEN": "Finland",
+    "iso2": "FI",
+    "iso3": "FIN",
+    "phoneCode": "358"
+  },
+  {
+    "nombreES": "Fiyi",
+    "nombreEN": "Fiji",
+    "iso2": "FJ",
+    "iso3": "FJI",
+    "phoneCode": "679"
+  },
+  {
+    "nombreES": "Francia",
+    "nombreEN": "France",
+    "iso2": "FR",
+    "iso3": "FRA",
+    "phoneCode": "33"
+  },
+  {
+    "nombreES": "Gabón",
+    "nombreEN": "Gabon",
+    "iso2": "GA",
+    "iso3": "GAB",
+    "phoneCode": "241"
+  },
+  {
+    "nombreES": "Gambia",
+    "nombreEN": "Gambia",
+    "iso2": "GM",
+    "iso3": "GMB",
+    "phoneCode": "220"
+  },
+  {
+    "nombreES": "Georgia",
+    "nombreEN": "Georgia",
+    "iso2": "GE",
+    "iso3": "GEO",
+    "phoneCode": "995"
+  },
+  {
+    "nombreES": "Ghana",
+    "nombreEN": "Ghana",
+    "iso2": "GH",
+    "iso3": "GHA",
+    "phoneCode": "233"
+  },
+  {
+    "nombreES": "Gibraltar",
+    "nombreEN": "Gibraltar",
+    "iso2": "GI",
+    "iso3": "GIB",
+    "phoneCode": "350"
+  },
+  {
+    "nombreES": "Granada",
+    "nombreEN": "Grenada",
+    "iso2": "GD",
+    "iso3": "GRD",
+    "phoneCode": "1 473"
+  },
+  {
+    "nombreES": "Grecia",
+    "nombreEN": "Greece",
+    "iso2": "GR",
+    "iso3": "GRC",
+    "phoneCode": "30"
+  },
+  {
+    "nombreES": "Groenlandia",
+    "nombreEN": "Greenland",
+    "iso2": "GL",
+    "iso3": "GRL",
+    "phoneCode": "299"
+  },
+  {
+    "nombreES": "Guadalupe",
+    "nombreEN": "Guadeloupe",
+    "iso2": "GP",
+    "iso3": "GLP",
+    "phoneCode": "590"
+  },
+  {
+    "nombreES": "Guam",
+    "nombreEN": "Guam",
+    "iso2": "GU",
+    "iso3": "GUM",
+    "phoneCode": "1 671"
+  },
+  {
+    "nombreES": "Guatemala",
+    "nombreEN": "Guatemala",
+    "iso2": "GT",
+    "iso3": "GTM",
+    "phoneCode": "502"
+  },
+  {
+    "nombreES": "Guayana Francesa",
+    "nombreEN": "French Guiana",
+    "iso2": "GF",
+    "iso3": "GUF",
+    "phoneCode": "594"
+  },
+  {
+    "nombreES": "Guernsey",
+    "nombreEN": "Guernsey",
+    "iso2": "GG",
+    "iso3": "GGY",
+    "phoneCode": "44"
+  },
+  {
+    "nombreES": "Guinea",
+    "nombreEN": "Guinea",
+    "iso2": "GN",
+    "iso3": "GIN",
+    "phoneCode": "224"
+  },
+  {
+    "nombreES": "Guinea Ecuatorial",
+    "nombreEN": "Equatorial Guinea",
+    "iso2": "GQ",
+    "iso3": "GNQ",
+    "phoneCode": "240"
+  },
+  {
+    "nombreES": "Guinea-Bissau",
+    "nombreEN": "Guinea-Bissau",
+    "iso2": "GW",
+    "iso3": "GNB",
+    "phoneCode": "245"
+  },
+  {
+    "nombreES": "Guyana",
+    "nombreEN": "Guyana",
+    "iso2": "GY",
+    "iso3": "GUY",
+    "phoneCode": "592"
+  },
+  {
+    "nombreES": "Haití",
+    "nombreEN": "Haiti",
+    "iso2": "HT",
+    "iso3": "HTI",
+    "phoneCode": "509"
+  },
+  {
+    "nombreES": "Honduras",
+    "nombreEN": "Honduras",
+    "iso2": "HN",
+    "iso3": "HND",
+    "phoneCode": "504"
+  },
+  {
+    "nombreES": "Hong kong",
+    "nombreEN": "Hong Kong",
+    "iso2": "HK",
+    "iso3": "HKG",
+    "phoneCode": "852"
+  },
+  {
+    "nombreES": "Hungría",
+    "nombreEN": "Hungary",
+    "iso2": "HU",
+    "iso3": "HUN",
+    "phoneCode": "36"
+  },
+  {
+    "nombreES": "India",
+    "nombreEN": "India",
+    "iso2": "IN",
+    "iso3": "IND",
+    "phoneCode": "91"
+  },
+  {
+    "nombreES": "Indonesia",
+    "nombreEN": "Indonesia",
+    "iso2": "ID",
+    "iso3": "IDN",
+    "phoneCode": "62"
+  },
+  {
+    "nombreES": "Irán",
+    "nombreEN": "Iran",
+    "iso2": "IR",
+    "iso3": "IRN",
+    "phoneCode": "98"
+  },
+  {
+    "nombreES": "Irak",
+    "nombreEN": "Iraq",
+    "iso2": "IQ",
+    "iso3": "IRQ",
+    "phoneCode": "964"
+  },
+  {
+    "nombreES": "Irlanda",
+    "nombreEN": "Ireland",
+    "iso2": "IE",
+    "iso3": "IRL",
+    "phoneCode": "353"
+  },
+  {
+    "nombreES": "Isla Bouvet",
+    "nombreEN": "Bouvet Island",
+    "iso2": "BV",
+    "iso3": "BVT",
+    "phoneCode": ""
+  },
+  {
+    "nombreES": "Isla de Man",
+    "nombreEN": "Isle of Man",
+    "iso2": "IM",
+    "iso3": "IMN",
+    "phoneCode": "44"
+  },
+  {
+    "nombreES": "Isla de Navidad",
+    "nombreEN": "Christmas Island",
+    "iso2": "CX",
+    "iso3": "CXR",
+    "phoneCode": "61"
+  },
+  {
+    "nombreES": "Isla Norfolk",
+    "nombreEN": "Norfolk Island",
+    "iso2": "NF",
+    "iso3": "NFK",
+    "phoneCode": "672"
+  },
+  {
+    "nombreES": "Islandia",
+    "nombreEN": "Iceland",
+    "iso2": "IS",
+    "iso3": "ISL",
+    "phoneCode": "354"
+  },
+  {
+    "nombreES": "Islas Bermudas",
+    "nombreEN": "Bermuda Islands",
+    "iso2": "BM",
+    "iso3": "BMU",
+    "phoneCode": "1 441"
+  },
+  {
+    "nombreES": "Islas Caimán",
+    "nombreEN": "Cayman Islands",
+    "iso2": "KY",
+    "iso3": "CYM",
+    "phoneCode": "1 345"
+  },
+  {
+    "nombreES": "Islas Cocos (Keeling)",
+    "nombreEN": "Cocos (Keeling) Islands",
+    "iso2": "CC",
+    "iso3": "CCK",
+    "phoneCode": "61"
+  },
+  {
+    "nombreES": "Islas Cook",
+    "nombreEN": "Cook Islands",
+    "iso2": "CK",
+    "iso3": "COK",
+    "phoneCode": "682"
+  },
+  {
+    "nombreES": "Islas de Åland",
+    "nombreEN": "Åland Islands",
+    "iso2": "AX",
+    "iso3": "ALA",
+    "phoneCode": "358"
+  },
+  {
+    "nombreES": "Islas Feroe",
+    "nombreEN": "Faroe Islands",
+    "iso2": "FO",
+    "iso3": "FRO",
+    "phoneCode": "298"
+  },
+  {
+    "nombreES": "Islas Georgias del Sur y Sandwich del Sur",
+    "nombreEN": "South Georgia and the South Sandwich Islands",
+    "iso2": "GS",
+    "iso3": "SGS",
+    "phoneCode": "500"
+  },
+  {
+    "nombreES": "Islas Heard y McDonald",
+    "nombreEN": "Heard Island and McDonald Islands",
+    "iso2": "HM",
+    "iso3": "HMD",
+    "phoneCode": ""
+  },
+  {
+    "nombreES": "Islas Maldivas",
+    "nombreEN": "Maldives",
+    "iso2": "MV",
+    "iso3": "MDV",
+    "phoneCode": "960"
+  },
+  {
+    "nombreES": "Islas Malvinas",
+    "nombreEN": "Falkland Islands (Malvinas)",
+    "iso2": "FK",
+    "iso3": "FLK",
+    "phoneCode": "500"
+  },
+  {
+    "nombreES": "Islas Marianas del Norte",
+    "nombreEN": "Northern Mariana Islands",
+    "iso2": "MP",
+    "iso3": "MNP",
+    "phoneCode": "1 670"
+  },
+  {
+    "nombreES": "Islas Marshall",
+    "nombreEN": "Marshall Islands",
+    "iso2": "MH",
+    "iso3": "MHL",
+    "phoneCode": "692"
+  },
+  {
+    "nombreES": "Islas Pitcairn",
+    "nombreEN": "Pitcairn Islands",
+    "iso2": "PN",
+    "iso3": "PCN",
+    "phoneCode": "870"
+  },
+  {
+    "nombreES": "Islas Salomón",
+    "nombreEN": "Solomon Islands",
+    "iso2": "SB",
+    "iso3": "SLB",
+    "phoneCode": "677"
+  },
+  {
+    "nombreES": "Islas Turcas y Caicos",
+    "nombreEN": "Turks and Caicos Islands",
+    "iso2": "TC",
+    "iso3": "TCA",
+    "phoneCode": "1 649"
+  },
+  {
+    "nombreES": "Islas Ultramarinas Menores de Estados Unidos",
+    "nombreEN": "United States Minor Outlying Islands",
+    "iso2": "UM",
+    "iso3": "UMI",
+    "phoneCode": "246"
+  },
+  {
+    "nombreES": "Islas Vírgenes Británicas",
+    "nombreEN": "Virgin Islands",
+    "iso2": "VG",
+    "iso3": "VGB",
+    "phoneCode": "1 284"
+  },
+  {
+    "nombreES": "Islas Vírgenes de los Estados Unidos",
+    "nombreEN": "United States Virgin Islands",
+    "iso2": "VI",
+    "iso3": "VIR",
+    "phoneCode": "1 340"
+  },
+  {
+    "nombreES": "Israel",
+    "nombreEN": "Israel",
+    "iso2": "IL",
+    "iso3": "ISR",
+    "phoneCode": "972"
+  },
+  {
+    "nombreES": "Italia",
+    "nombreEN": "Italy",
+    "iso2": "IT",
+    "iso3": "ITA",
+    "phoneCode": "39"
+  },
+  {
+    "nombreES": "Jamaica",
+    "nombreEN": "Jamaica",
+    "iso2": "JM",
+    "iso3": "JAM",
+    "phoneCode": "1 876"
+  },
+  {
+    "nombreES": "Japón",
+    "nombreEN": "Japan",
+    "iso2": "JP",
+    "iso3": "JPN",
+    "phoneCode": "81"
+  },
+  {
+    "nombreES": "Jersey",
+    "nombreEN": "Jersey",
+    "iso2": "JE",
+    "iso3": "JEY",
+    "phoneCode": "44"
+  },
+  {
+    "nombreES": "Jordania",
+    "nombreEN": "Jordan",
+    "iso2": "JO",
+    "iso3": "JOR",
+    "phoneCode": "962"
+  },
+  {
+    "nombreES": "Kazajistán",
+    "nombreEN": "Kazakhstan",
+    "iso2": "KZ",
+    "iso3": "KAZ",
+    "phoneCode": "7"
+  },
+  {
+    "nombreES": "Kenia",
+    "nombreEN": "Kenya",
+    "iso2": "KE",
+    "iso3": "KEN",
+    "phoneCode": "254"
+  },
+  {
+    "nombreES": "Kirguistán",
+    "nombreEN": "Kyrgyzstan",
+    "iso2": "KG",
+    "iso3": "KGZ",
+    "phoneCode": "996"
+  },
+  {
+    "nombreES": "Kiribati",
+    "nombreEN": "Kiribati",
+    "iso2": "KI",
+    "iso3": "KIR",
+    "phoneCode": "686"
+  },
+  {
+    "nombreES": "Kuwait",
+    "nombreEN": "Kuwait",
+    "iso2": "KW",
+    "iso3": "KWT",
+    "phoneCode": "965"
+  },
+  {
+    "nombreES": "Líbano",
+    "nombreEN": "Lebanon",
+    "iso2": "LB",
+    "iso3": "LBN",
+    "phoneCode": "961"
+  },
+  {
+    "nombreES": "Laos",
+    "nombreEN": "Laos",
+    "iso2": "LA",
+    "iso3": "LAO",
+    "phoneCode": "856"
+  },
+  {
+    "nombreES": "Lesoto",
+    "nombreEN": "Lesotho",
+    "iso2": "LS",
+    "iso3": "LSO",
+    "phoneCode": "266"
+  },
+  {
+    "nombreES": "Letonia",
+    "nombreEN": "Latvia",
+    "iso2": "LV",
+    "iso3": "LVA",
+    "phoneCode": "371"
+  },
+  {
+    "nombreES": "Liberia",
+    "nombreEN": "Liberia",
+    "iso2": "LR",
+    "iso3": "LBR",
+    "phoneCode": "231"
+  },
+  {
+    "nombreES": "Libia",
+    "nombreEN": "Libya",
+    "iso2": "LY",
+    "iso3": "LBY",
+    "phoneCode": "218"
+  },
+  {
+    "nombreES": "Liechtenstein",
+    "nombreEN": "Liechtenstein",
+    "iso2": "LI",
+    "iso3": "LIE",
+    "phoneCode": "423"
+  },
+  {
+    "nombreES": "Lituania",
+    "nombreEN": "Lithuania",
+    "iso2": "LT",
+    "iso3": "LTU",
+    "phoneCode": "370"
+  },
+  {
+    "nombreES": "Luxemburgo",
+    "nombreEN": "Luxembourg",
+    "iso2": "LU",
+    "iso3": "LUX",
+    "phoneCode": "352"
+  },
+  {
+    "nombreES": "México",
+    "nombreEN": "Mexico",
+    "iso2": "MX",
+    "iso3": "MEX",
+    "phoneCode": "52"
+  },
+  {
+    "nombreES": "Mónaco",
+    "nombreEN": "Monaco",
+    "iso2": "MC",
+    "iso3": "MCO",
+    "phoneCode": "377"
+  },
+  {
+    "nombreES": "Macao",
+    "nombreEN": "Macao",
+    "iso2": "MO",
+    "iso3": "MAC",
+    "phoneCode": "853"
+  },
+  {
+    "nombreES": "Macedônia",
+    "nombreEN": "Macedonia",
+    "iso2": "MK",
+    "iso3": "MKD",
+    "phoneCode": "389"
+  },
+  {
+    "nombreES": "Madagascar",
+    "nombreEN": "Madagascar",
+    "iso2": "MG",
+    "iso3": "MDG",
+    "phoneCode": "261"
+  },
+  {
+    "nombreES": "Malasia",
+    "nombreEN": "Malaysia",
+    "iso2": "MY",
+    "iso3": "MYS",
+    "phoneCode": "60"
+  },
+  {
+    "nombreES": "Malawi",
+    "nombreEN": "Malawi",
+    "iso2": "MW",
+    "iso3": "MWI",
+    "phoneCode": "265"
+  },
+  {
+    "nombreES": "Mali",
+    "nombreEN": "Mali",
+    "iso2": "ML",
+    "iso3": "MLI",
+    "phoneCode": "223"
+  },
+  {
+    "nombreES": "Malta",
+    "nombreEN": "Malta",
+    "iso2": "MT",
+    "iso3": "MLT",
+    "phoneCode": "356"
+  },
+  {
+    "nombreES": "Marruecos",
+    "nombreEN": "Morocco",
+    "iso2": "MA",
+    "iso3": "MAR",
+    "phoneCode": "212"
+  },
+  {
+    "nombreES": "Martinica",
+    "nombreEN": "Martinique",
+    "iso2": "MQ",
+    "iso3": "MTQ",
+    "phoneCode": "596"
+  },
+  {
+    "nombreES": "Mauricio",
+    "nombreEN": "Mauritius",
+    "iso2": "MU",
+    "iso3": "MUS",
+    "phoneCode": "230"
+  },
+  {
+    "nombreES": "Mauritania",
+    "nombreEN": "Mauritania",
+    "iso2": "MR",
+    "iso3": "MRT",
+    "phoneCode": "222"
+  },
+  {
+    "nombreES": "Mayotte",
+    "nombreEN": "Mayotte",
+    "iso2": "YT",
+    "iso3": "MYT",
+    "phoneCode": "262"
+  },
+  {
+    "nombreES": "Micronesia",
+    "nombreEN": "Estados Federados de",
+    "iso2": "FM",
+    "iso3": "FSM",
+    "phoneCode": "691"
+  },
+  {
+    "nombreES": "Moldavia",
+    "nombreEN": "Moldova",
+    "iso2": "MD",
+    "iso3": "MDA",
+    "phoneCode": "373"
+  },
+  {
+    "nombreES": "Mongolia",
+    "nombreEN": "Mongolia",
+    "iso2": "MN",
+    "iso3": "MNG",
+    "phoneCode": "976"
+  },
+  {
+    "nombreES": "Montenegro",
+    "nombreEN": "Montenegro",
+    "iso2": "ME",
+    "iso3": "MNE",
+    "phoneCode": "382"
+  },
+  {
+    "nombreES": "Montserrat",
+    "nombreEN": "Montserrat",
+    "iso2": "MS",
+    "iso3": "MSR",
+    "phoneCode": "1 664"
+  },
+  {
+    "nombreES": "Mozambique",
+    "nombreEN": "Mozambique",
+    "iso2": "MZ",
+    "iso3": "MOZ",
+    "phoneCode": "258"
+  },
+  {
+    "nombreES": "Namibia",
+    "nombreEN": "Namibia",
+    "iso2": "NA",
+    "iso3": "NAM",
+    "phoneCode": "264"
+  },
+  {
+    "nombreES": "Nauru",
+    "nombreEN": "Nauru",
+    "iso2": "NR",
+    "iso3": "NRU",
+    "phoneCode": "674"
+  },
+  {
+    "nombreES": "Nepal",
+    "nombreEN": "Nepal",
+    "iso2": "NP",
+    "iso3": "NPL",
+    "phoneCode": "977"
+  },
+  {
+    "nombreES": "Nicaragua",
+    "nombreEN": "Nicaragua",
+    "iso2": "NI",
+    "iso3": "NIC",
+    "phoneCode": "505"
+  },
+  {
+    "nombreES": "Niger",
+    "nombreEN": "Niger",
+    "iso2": "NE",
+    "iso3": "NER",
+    "phoneCode": "227"
+  },
+  {
+    "nombreES": "Nigeria",
+    "nombreEN": "Nigeria",
+    "iso2": "NG",
+    "iso3": "NGA",
+    "phoneCode": "234"
+  },
+  {
+    "nombreES": "Niue",
+    "nombreEN": "Niue",
+    "iso2": "NU",
+    "iso3": "NIU",
+    "phoneCode": "683"
+  },
+  {
+    "nombreES": "Noruega",
+    "nombreEN": "Norway",
+    "iso2": "NO",
+    "iso3": "NOR",
+    "phoneCode": "47"
+  },
+  {
+    "nombreES": "Nueva Caledonia",
+    "nombreEN": "New Caledonia",
+    "iso2": "NC",
+    "iso3": "NCL",
+    "phoneCode": "687"
+  },
+  {
+    "nombreES": "Nueva Zelanda",
+    "nombreEN": "New Zealand",
+    "iso2": "NZ",
+    "iso3": "NZL",
+    "phoneCode": "64"
+  },
+  {
+    "nombreES": "Omán",
+    "nombreEN": "Oman",
+    "iso2": "OM",
+    "iso3": "OMN",
+    "phoneCode": "968"
+  },
+  {
+    "nombreES": "Países Bajos",
+    "nombreEN": "Netherlands",
+    "iso2": "NL",
+    "iso3": "NLD",
+    "phoneCode": "31"
+  },
+  {
+    "nombreES": "Pakistán",
+    "nombreEN": "Pakistan",
+    "iso2": "PK",
+    "iso3": "PAK",
+    "phoneCode": "92"
+  },
+  {
+    "nombreES": "Palau",
+    "nombreEN": "Palau",
+    "iso2": "PW",
+    "iso3": "PLW",
+    "phoneCode": "680"
+  },
+  {
+    "nombreES": "Palestina",
+    "nombreEN": "Palestine",
+    "iso2": "PS",
+    "iso3": "PSE",
+    "phoneCode": "970"
+  },
+  {
+    "nombreES": "Panamá",
+    "nombreEN": "Panama",
+    "iso2": "PA",
+    "iso3": "PAN",
+    "phoneCode": "507"
+  },
+  {
+    "nombreES": "Papúa Nueva Guinea",
+    "nombreEN": "Papua New Guinea",
+    "iso2": "PG",
+    "iso3": "PNG",
+    "phoneCode": "675"
+  },
+  {
+    "nombreES": "Paraguay",
+    "nombreEN": "Paraguay",
+    "iso2": "PY",
+    "iso3": "PRY",
+    "phoneCode": "595"
+  },
+  {
+    "nombreES": "Perú",
+    "nombreEN": "Peru",
+    "iso2": "PE",
+    "iso3": "PER",
+    "phoneCode": "51"
+  },
+  {
+    "nombreES": "Polinesia Francesa",
+    "nombreEN": "French Polynesia",
+    "iso2": "PF",
+    "iso3": "PYF",
+    "phoneCode": "689"
+  },
+  {
+    "nombreES": "Polonia",
+    "nombreEN": "Poland",
+    "iso2": "PL",
+    "iso3": "POL",
+    "phoneCode": "48"
+  },
+  {
+    "nombreES": "Portugal",
+    "nombreEN": "Portugal",
+    "iso2": "PT",
+    "iso3": "PRT",
+    "phoneCode": "351"
+  },
+  {
+    "nombreES": "Puerto Rico",
+    "nombreEN": "Puerto Rico",
+    "iso2": "PR",
+    "iso3": "PRI",
+    "phoneCode": "1"
+  },
+  {
+    "nombreES": "Qatar",
+    "nombreEN": "Qatar",
+    "iso2": "QA",
+    "iso3": "QAT",
+    "phoneCode": "974"
+  },
+  {
+    "nombreES": "Reino Unido",
+    "nombreEN": "United Kingdom",
+    "iso2": "GB",
+    "iso3": "GBR",
+    "phoneCode": "44"
+  },
+  {
+    "nombreES": "República Centroafricana",
+    "nombreEN": "Central African Republic",
+    "iso2": "CF",
+    "iso3": "CAF",
+    "phoneCode": "236"
+  },
+  {
+    "nombreES": "República Checa",
+    "nombreEN": "Czech Republic",
+    "iso2": "CZ",
+    "iso3": "CZE",
+    "phoneCode": "420"
+  },
+  {
+    "nombreES": "República Dominicana",
+    "nombreEN": "Dominican Republic",
+    "iso2": "DO",
+    "iso3": "DOM",
+    "phoneCode": "1 809"
+  },
+  {
+    "nombreES": "República de Sudán del Sur",
+    "nombreEN": "South Sudan",
+    "iso2": "SS",
+    "iso3": "SSD",
+    "phoneCode": "211"
+  },
+  {
+    "nombreES": "Reunión",
+    "nombreEN": "Réunion",
+    "iso2": "RE",
+    "iso3": "REU",
+    "phoneCode": "262"
+  },
+  {
+    "nombreES": "Ruanda",
+    "nombreEN": "Rwanda",
+    "iso2": "RW",
+    "iso3": "RWA",
+    "phoneCode": "250"
+  },
+  {
+    "nombreES": "Rumanía",
+    "nombreEN": "Romania",
+    "iso2": "RO",
+    "iso3": "ROU",
+    "phoneCode": "40"
+  },
+  {
+    "nombreES": "Rusia",
+    "nombreEN": "Russia",
+    "iso2": "RU",
+    "iso3": "RUS",
+    "phoneCode": "7"
+  },
+  {
+    "nombreES": "Sahara Occidental",
+    "nombreEN": "Western Sahara",
+    "iso2": "EH",
+    "iso3": "ESH",
+    "phoneCode": "212"
+  },
+  {
+    "nombreES": "Samoa",
+    "nombreEN": "Samoa",
+    "iso2": "WS",
+    "iso3": "WSM",
+    "phoneCode": "685"
+  },
+  {
+    "nombreES": "Samoa Americana",
+    "nombreEN": "American Samoa",
+    "iso2": "AS",
+    "iso3": "ASM",
+    "phoneCode": "1 684"
+  },
+  {
+    "nombreES": "San Bartolomé",
+    "nombreEN": "Saint Barthélemy",
+    "iso2": "BL",
+    "iso3": "BLM",
+    "phoneCode": "590"
+  },
+  {
+    "nombreES": "San Cristóbal y Nieves",
+    "nombreEN": "Saint Kitts and Nevis",
+    "iso2": "KN",
+    "iso3": "KNA",
+    "phoneCode": "1 869"
+  },
+  {
+    "nombreES": "San Marino",
+    "nombreEN": "San Marino",
+    "iso2": "SM",
+    "iso3": "SMR",
+    "phoneCode": "378"
+  },
+  {
+    "nombreES": "San Martín (Francia)",
+    "nombreEN": "Saint Martin (French part)",
+    "iso2": "MF",
+    "iso3": "MAF",
+    "phoneCode": "1 599"
+  },
+  {
+    "nombreES": "San Pedro y Miquelón",
+    "nombreEN": "Saint Pierre and Miquelon",
+    "iso2": "PM",
+    "iso3": "SPM",
+    "phoneCode": "508"
+  },
+  {
+    "nombreES": "San Vicente y las Granadinas",
+    "nombreEN": "Saint Vincent and the Grenadines",
+    "iso2": "VC",
+    "iso3": "VCT",
+    "phoneCode": "1 784"
+  },
+  {
+    "nombreES": "Santa Elena",
+    "nombreEN": "Ascensión y Tristán de Acuña",
+    "iso2": "SH",
+    "iso3": "SHN",
+    "phoneCode": "290"
+  },
+  {
+    "nombreES": "Santa Lucía",
+    "nombreEN": "Saint Lucia",
+    "iso2": "LC",
+    "iso3": "LCA",
+    "phoneCode": "1 758"
+  },
+  {
+    "nombreES": "Santo Tomé y Príncipe",
+    "nombreEN": "Sao Tome and Principe",
+    "iso2": "ST",
+    "iso3": "STP",
+    "phoneCode": "239"
+  },
+  {
+    "nombreES": "Senegal",
+    "nombreEN": "Senegal",
+    "iso2": "SN",
+    "iso3": "SEN",
+    "phoneCode": "221"
+  },
+  {
+    "nombreES": "Serbia",
+    "nombreEN": "Serbia",
+    "iso2": "RS",
+    "iso3": "SRB",
+    "phoneCode": "381"
+  },
+  {
+    "nombreES": "Seychelles",
+    "nombreEN": "Seychelles",
+    "iso2": "SC",
+    "iso3": "SYC",
+    "phoneCode": "248"
+  },
+  {
+    "nombreES": "Sierra Leona",
+    "nombreEN": "Sierra Leone",
+    "iso2": "SL",
+    "iso3": "SLE",
+    "phoneCode": "232"
+  },
+  {
+    "nombreES": "Singapur",
+    "nombreEN": "Singapore",
+    "iso2": "SG",
+    "iso3": "SGP",
+    "phoneCode": "65"
+  },
+  {
+    "nombreES": "Sint Maarten",
+    "nombreEN": "Sint Maarten",
+    "iso2": "SX",
+    "iso3": "SMX",
+    "phoneCode": "1 721"
+  },
+  {
+    "nombreES": "Siria",
+    "nombreEN": "Syria",
+    "iso2": "SY",
+    "iso3": "SYR",
+    "phoneCode": "963"
+  },
+  {
+    "nombreES": "Somalia",
+    "nombreEN": "Somalia",
+    "iso2": "SO",
+    "iso3": "SOM",
+    "phoneCode": "252"
+  },
+  {
+    "nombreES": "Sri lanka",
+    "nombreEN": "Sri Lanka",
+    "iso2": "LK",
+    "iso3": "LKA",
+    "phoneCode": "94"
+  },
+  {
+    "nombreES": "Sudáfrica",
+    "nombreEN": "South Africa",
+    "iso2": "ZA",
+    "iso3": "ZAF",
+    "phoneCode": "27"
+  },
+  {
+    "nombreES": "Sudán",
+    "nombreEN": "Sudan",
+    "iso2": "SD",
+    "iso3": "SDN",
+    "phoneCode": "249"
+  },
+  {
+    "nombreES": "Suecia",
+    "nombreEN": "Sweden",
+    "iso2": "SE",
+    "iso3": "SWE",
+    "phoneCode": "46"
+  },
+  {
+    "nombreES": "Suiza",
+    "nombreEN": "Switzerland",
+    "iso2": "CH",
+    "iso3": "CHE",
+    "phoneCode": "41"
+  },
+  {
+    "nombreES": "Surinám",
+    "nombreEN": "Suriname",
+    "iso2": "SR",
+    "iso3": "SUR",
+    "phoneCode": "597"
+  },
+  {
+    "nombreES": "Svalbard y Jan Mayen",
+    "nombreEN": "Svalbard and Jan Mayen",
+    "iso2": "SJ",
+    "iso3": "SJM",
+    "phoneCode": "47"
+  },
+  {
+    "nombreES": "Swazilandia",
+    "nombreEN": "Swaziland",
+    "iso2": "SZ",
+    "iso3": "SWZ",
+    "phoneCode": "268"
+  },
+  {
+    "nombreES": "Tayikistán",
+    "nombreEN": "Tajikistan",
+    "iso2": "TJ",
+    "iso3": "TJK",
+    "phoneCode": "992"
+  },
+  {
+    "nombreES": "Tailandia",
+    "nombreEN": "Thailand",
+    "iso2": "TH",
+    "iso3": "THA",
+    "phoneCode": "66"
+  },
+  {
+    "nombreES": "Taiwán",
+    "nombreEN": "Taiwan",
+    "iso2": "TW",
+    "iso3": "TWN",
+    "phoneCode": "886"
+  },
+  {
+    "nombreES": "Tanzania",
+    "nombreEN": "Tanzania",
+    "iso2": "TZ",
+    "iso3": "TZA",
+    "phoneCode": "255"
+  },
+  {
+    "nombreES": "Territorio Británico del Océano Índico",
+    "nombreEN": "British Indian Ocean Territory",
+    "iso2": "IO",
+    "iso3": "IOT",
+    "phoneCode": "246"
+  },
+  {
+    "nombreES": "Territorios Australes y Antárticas Franceses",
+    "nombreEN": "French Southern Territories",
+    "iso2": "TF",
+    "iso3": "ATF",
+    "phoneCode": ""
+  },
+  {
+    "nombreES": "Timor Oriental",
+    "nombreEN": "East Timor",
+    "iso2": "TL",
+    "iso3": "TLS",
+    "phoneCode": "670"
+  },
+  {
+    "nombreES": "Togo",
+    "nombreEN": "Togo",
+    "iso2": "TG",
+    "iso3": "TGO",
+    "phoneCode": "228"
+  },
+  {
+    "nombreES": "Tokelau",
+    "nombreEN": "Tokelau",
+    "iso2": "TK",
+    "iso3": "TKL",
+    "phoneCode": "690"
+  },
+  {
+    "nombreES": "Tonga",
+    "nombreEN": "Tonga",
+    "iso2": "TO",
+    "iso3": "TON",
+    "phoneCode": "676"
+  },
+  {
+    "nombreES": "Trinidad y Tobago",
+    "nombreEN": "Trinidad and Tobago",
+    "iso2": "TT",
+    "iso3": "TTO",
+    "phoneCode": "1 868"
+  },
+  {
+    "nombreES": "Tunez",
+    "nombreEN": "Tunisia",
+    "iso2": "TN",
+    "iso3": "TUN",
+    "phoneCode": "216"
+  },
+  {
+    "nombreES": "Turkmenistán",
+    "nombreEN": "Turkmenistan",
+    "iso2": "TM",
+    "iso3": "TKM",
+    "phoneCode": "993"
+  },
+  {
+    "nombreES": "Turquía",
+    "nombreEN": "Turkey",
+    "iso2": "TR",
+    "iso3": "TUR",
+    "phoneCode": "90"
+  },
+  {
+    "nombreES": "Tuvalu",
+    "nombreEN": "Tuvalu",
+    "iso2": "TV",
+    "iso3": "TUV",
+    "phoneCode": "688"
+  },
+  {
+    "nombreES": "Ucrania",
+    "nombreEN": "Ukraine",
+    "iso2": "UA",
+    "iso3": "UKR",
+    "phoneCode": "380"
+  },
+  {
+    "nombreES": "Uganda",
+    "nombreEN": "Uganda",
+    "iso2": "UG",
+    "iso3": "UGA",
+    "phoneCode": "256"
+  },
+  {
+    "nombreES": "Uruguay",
+    "nombreEN": "Uruguay",
+    "iso2": "UY",
+    "iso3": "URY",
+    "phoneCode": "598"
+  },
+  {
+    "nombreES": "Uzbekistán",
+    "nombreEN": "Uzbekistan",
+    "iso2": "UZ",
+    "iso3": "UZB",
+    "phoneCode": "998"
+  },
+  {
+    "nombreES": "Vanuatu",
+    "nombreEN": "Vanuatu",
+    "iso2": "VU",
+    "iso3": "VUT",
+    "phoneCode": "678"
+  },
+  {
+    "nombreES": "Venezuela",
+    "nombreEN": "Venezuela",
+    "iso2": "VE",
+    "iso3": "VEN",
+    "phoneCode": "58"
+  },
+  {
+    "nombreES": "Vietnam",
+    "nombreEN": "Vietnam",
+    "iso2": "VN",
+    "iso3": "VNM",
+    "phoneCode": "84"
+  },
+  {
+    "nombreES": "Wallis y Futuna",
+    "nombreEN": "Wallis and Futuna",
+    "iso2": "WF",
+    "iso3": "WLF",
+    "phoneCode": "681"
+  },
+  {
+    "nombreES": "Yemen",
+    "nombreEN": "Yemen",
+    "iso2": "YE",
+    "iso3": "YEM",
+    "phoneCode": "967"
+  },
+  {
+    "nombreES": "Yibuti",
+    "nombreEN": "Djibouti",
+    "iso2": "DJ",
+    "iso3": "DJI",
+    "phoneCode": "253"
+  },
+  {
+    "nombreES": "Zambia",
+    "nombreEN": "Zambia",
+    "iso2": "ZM",
+    "iso3": "ZMB",
+    "phoneCode": "260"
+  },
+  {
+    "nombreES": "Zimbabue",
+    "nombreEN": "Zimbabwe",
+    "iso2": "ZW",
+    "iso3": "ZWE",
+    "phoneCode": "263"
+  }
+]

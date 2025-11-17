@@ -2,9 +2,13 @@ from pydantic import BaseModel
 from typing import Optional
 from datetime import datetime
 
+
 class PaisBase(BaseModel):
-    nombre: str
-    codigo_iso: Optional[str] = None
+    nombreES: str
+    nombreEN: str
+    iso2: Optional[str] = None
+    iso3: Optional[str] = None
+    phoneCode: Optional[int] = None
 
 class PaisCreate(PaisBase):
     pass
