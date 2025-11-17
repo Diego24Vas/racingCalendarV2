@@ -1,0 +1,31 @@
+version: '3.8'
+services:
+  admin:
+    build:
+      context: ./admin
+      dockerfile: Dockerfile
+    container_name: admin-app
+    ports:
+      - "3001:3000"
+    working_dir: /app
+    # volumes:
+    #   - ./admin:/app
+    environment:
+      - NODE_ENV=production
+      - HOST=0.0.0.0
+    restart: unless-stopped
+
+  user:
+    build:
+      context: ./user
+      dockerfile: Dockerfile
+    container_name: user-app
+    ports:
+      - "3002:3000"
+    working_dir: /app
+    # volumes:
+    #   - ./user:/app
+    environment:
+      - NODE_ENV=production
+      - HOST=0.0.0.0
+    restart: unless-stopped
