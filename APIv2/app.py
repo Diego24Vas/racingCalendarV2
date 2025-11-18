@@ -14,10 +14,19 @@ from api.routes.inscripcion_temporada import router as inscripcion_temporada_rou
 from db.init_db import init_db
 from contextlib import asynccontextmanager
 from core.config import settings
+import sys
+import os
+
 
 @asynccontextmanager
 async def lifespan(app):
     init_db()
+    # Crear admin de desarrollo automáticamente
+    try:
+        from scripts.crear_admin_dev import crear_admin
+        crear_admin()
+    except Exception as e:
+        print(f"[WARN] No se pudo crear el admin de desarrollo: {e}", file=sys.stderr)
     yield
 
 app = FastAPI(
