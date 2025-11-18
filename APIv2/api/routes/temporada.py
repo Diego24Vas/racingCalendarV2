@@ -1,7 +1,5 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from core.security import require_admin, get_current_user
-from fastapi.security import OAuth2PasswordBearer
-oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/token")
 from sqlalchemy.orm import Session
 from schemas.temporada import TemporadaOut, TemporadaCreate, TemporadaUpdate
 from repositories import temporada as temporada_repo
@@ -22,21 +20,21 @@ def get_temporada(temporada_id: int, db: Session = Depends(get_db)):
     return temporada
 
 @router.post("/", response_model=TemporadaOut, status_code=status.HTTP_201_CREATED)
-def create_temporada(temporada: TemporadaCreate, db: Session = Depends(get_db), token: str = Depends(oauth2_scheme)):
-    current_user = require_admin(get_current_user(token=token, db=db))
+def create_temporada(temporada: TemporadaCreate, db: Session = Depends(get_db), current_user=Depends(get_current_user)):
+    require_admin(current_user)
     return temporada_repo.create(db, temporada)
 
 @router.put("/{temporada_id}", response_model=TemporadaOut)
-def update_temporada(temporada_id: int, temporada: TemporadaUpdate, db: Session = Depends(get_db), token: str = Depends(oauth2_scheme)):
-    current_user = require_admin(get_current_user(token=token, db=db))
+def update_temporada(temporada_id: int, temporada: TemporadaUpdate, db: Session = Depends(get_db), current_user=Depends(get_current_user)):
+    require_admin(current_user)
     updated = temporada_repo.update(db, temporada_id, temporada)
     if not updated:
         raise HTTPException(status_code=404, detail="Temporada no encontrada")
     return updated
 
 @router.delete("/{temporada_id}", status_code=status.HTTP_204_NO_CONTENT)
-def delete_temporada(temporada_id: int, db: Session = Depends(get_db), token: str = Depends(oauth2_scheme)):
-    current_user = require_admin(get_current_user(token=token, db=db))
+def delete_temporada(temporada_id: int, db: Session = Depends(get_db), current_user=Depends(get_current_user)):
+    require_admin(current_user)
     deleted = temporada_repo.delete(db, temporada_id)
     if not deleted:
         raise HTTPException(status_code=404, detail="Temporada no encontrada")
