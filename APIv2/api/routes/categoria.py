@@ -1,4 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException, status
+from core.security import require_admin, get_current_user
+from fastapi.security import OAuth2PasswordBearer
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/token")
 from sqlalchemy.orm import Session
 from schemas.categoria import CategoriaOut, CategoriaCreate, CategoriaUpdate
 from repositories import categoria as categoria_repo
@@ -19,18 +22,21 @@ def get_categoria(categoria_id: int, db: Session = Depends(get_db)):
     return categoria
 
 @router.post("/", response_model=CategoriaOut, status_code=status.HTTP_201_CREATED)
-def create_categoria(categoria: CategoriaCreate, db: Session = Depends(get_db)):
+def create_categoria(categoria: CategoriaCreate, db: Session = Depends(get_db), token: str = Depends(oauth2_scheme)):
+    current_user = require_admin(get_current_user(token=token, db=db))
     return categoria_repo.create(db, categoria)
 
 @router.put("/{categoria_id}", response_model=CategoriaOut)
-def update_categoria(categoria_id: int, categoria: CategoriaUpdate, db: Session = Depends(get_db)):
+def update_categoria(categoria_id: int, categoria: CategoriaUpdate, db: Session = Depends(get_db), token: str = Depends(oauth2_scheme)):
+    current_user = require_admin(get_current_user(token=token, db=db))
     updated = categoria_repo.update(db, categoria_id, categoria)
     if not updated:
         raise HTTPException(status_code=404, detail="Categoría no encontrada")
     return updated
 
 @router.delete("/{categoria_id}", status_code=status.HTTP_204_NO_CONTENT)
-def delete_categoria(categoria_id: int, db: Session = Depends(get_db)):
+def delete_categoria(categoria_id: int, db: Session = Depends(get_db), token: str = Depends(oauth2_scheme)):
+    current_user = require_admin(get_current_user(token=token, db=db))
     deleted = categoria_repo.delete(db, categoria_id)
     if not deleted:
         raise HTTPException(status_code=404, detail="Categoría no encontrada")

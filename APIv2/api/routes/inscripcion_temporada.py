@@ -1,4 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException, status
+from core.security import require_admin, get_current_user
+from fastapi.security import OAuth2PasswordBearer
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/token")
 from sqlalchemy.orm import Session
 from schemas.inscripcion_temporada import InscripcionTemporadaOut, InscripcionTemporadaCreate, InscripcionTemporadaUpdate
 from repositories import inscripcion_temporada as insc_repo
@@ -19,18 +22,21 @@ def get_inscripcion(insc_id: int, db: Session = Depends(get_db)):
     return insc
 
 @router.post("/", response_model=InscripcionTemporadaOut, status_code=status.HTTP_201_CREATED)
-def create_inscripcion(insc: InscripcionTemporadaCreate, db: Session = Depends(get_db)):
+def create_inscripcion(insc: InscripcionTemporadaCreate, db: Session = Depends(get_db), token: str = Depends(oauth2_scheme)):
+    current_user = require_admin(get_current_user(token=token, db=db))
     return insc_repo.create(db, insc)
 
 @router.put("/{insc_id}", response_model=InscripcionTemporadaOut)
-def update_inscripcion(insc_id: int, insc: InscripcionTemporadaUpdate, db: Session = Depends(get_db)):
+def update_inscripcion(insc_id: int, insc: InscripcionTemporadaUpdate, db: Session = Depends(get_db), token: str = Depends(oauth2_scheme)):
+    current_user = require_admin(get_current_user(token=token, db=db))
     updated = insc_repo.update(db, insc_id, insc)
     if not updated:
         raise HTTPException(status_code=404, detail="Inscripción no encontrada")
     return updated
 
 @router.delete("/{insc_id}", status_code=status.HTTP_204_NO_CONTENT)
-def delete_inscripcion(insc_id: int, db: Session = Depends(get_db)):
+def delete_inscripcion(insc_id: int, db: Session = Depends(get_db), token: str = Depends(oauth2_scheme)):
+    current_user = require_admin(get_current_user(token=token, db=db))
     deleted = insc_repo.delete(db, insc_id)
     if not deleted:
         raise HTTPException(status_code=404, detail="Inscripción no encontrada")
