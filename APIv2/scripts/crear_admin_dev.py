@@ -11,7 +11,7 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 def crear_admin():
     db = SessionLocal()
     try:
-        admin_email = "admin@dev.local"
+        admin_email = "admin@admin.com"
         admin = db.query(Usuario).filter(Usuario.correo == admin_email).first()
         if not admin:
             admin = Usuario(
