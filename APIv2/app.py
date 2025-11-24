@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 from api.routes.auth import router as auth_router
@@ -38,10 +38,16 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=settings.cors_origins_list,
+    allow_origin_regex=r"http://(localhost|127\.0\.0\.1)(:\d+)?",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+@app.middleware("http")
+async def db_session_middleware(request: Request, call_next):
+    response = await call_next(request)
+    return response
 
 # Incluir routers
 app.include_router(auth_router, tags=["auth"])
